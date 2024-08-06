@@ -1,0 +1,8 @@
+
+body{
+  background: linear-gradient(to right, #50779b, #355a7d);
+  background-image: url("../src/assets/bg-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

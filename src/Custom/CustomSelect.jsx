@@ -180,6 +180,7 @@ const CustomSelect = ({
               value={searchTerm}
               onChange={handleInputChange}
               className="search-input"
+              placeholder='Search Your city here...'
             />
           )}
           <div className="options">{renderOptions()}</div>

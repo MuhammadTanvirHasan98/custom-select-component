@@ -37,7 +37,7 @@ const App = () => {
 
   return (
     <div className='main-app'>
-      <h1>Custom Select Component</h1>
+      <h1 className='heading'>Custom Select Component</h1>
       <CustomSelect
         isClearable={true}
         isSearchable={true}

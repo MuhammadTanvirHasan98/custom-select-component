@@ -148,8 +148,8 @@ const CustomSelect = ({
       >
         {isMulti
           ? selectedValues.length
-            ? selectedValues.map((val) => (
-                <div key={val.value} className="selected-option">
+            ? selectedValues.map((val, indx) => (
+                <div key={indx} className="selected-option">
                   {val.label}
                   <button
                     onClick={(e) => {
@@ -168,7 +168,7 @@ const CustomSelect = ({
           : placeholder}
         {isClearable && selectedValues && (
           <button onClick={handleClear} className="clear-btn">
-            &times;
+            Clear
           </button>
         )}
       </div>

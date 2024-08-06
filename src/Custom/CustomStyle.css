@@ -24,8 +24,9 @@
   align-items: center;
   margin: 2px;
   padding: 2px 6px;
-  background-color: rgb(102, 29, 170);
-  border-radius: 4px;
+  background-color: #3d3bab;
+  border: 1px solid white;
+  border-radius: 3px;
 }
 
 .remove-btn {
@@ -42,10 +43,10 @@
 
 .clear-btn {
   margin-left: auto;
-  background: none;
   border: 1px solid white;
   border-radius: 4px;
   font-size: 14px;
+  padding: 4px;
   cursor: pointer;
   background-color: #ff0000;
   color: white;
@@ -71,6 +72,11 @@
 .option {
   padding: 8px;
   cursor: pointer;
+}
+.option:hover{
+   background: #3d3bab;
+   color: white;
+   font-weight: bold;
 }
 
 .option.selected {
